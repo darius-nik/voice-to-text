@@ -35,11 +35,9 @@ A modern GUI application that converts audio files to text with high accuracy us
    ```
 
 2. **Select Model Size**:
-   - **tiny**: Fastest, least accurate (~39 MB)
-   - **base**: Good balance of speed and accuracy (~74 MB) - Default
-   - **small**: Better accuracy (~244 MB)
-   - **medium**: High accuracy (~769 MB)
-   - **large**: Best accuracy (~1550 MB)
+   - **small**: Better accuracy (~544 MB)
+   - **medium**: High accuracy (~1465 MB)
+   - **large**: Best accuracy (~2550 MB)
 
 3. **Select Audio File**:
    - Click "Select Audio File" button
