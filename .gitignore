@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs & cache
+*.log
+.cache/
+
+# Audio samples and outputs
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.ogg
+*.wma
+result.txt
+
+# Models/cache (Whisper, Torch)
+~/.cache/
+.whisper/
+.torch/
+
+# Build
+build/
+dist/
+
+# Local settings
+*.local
+.env

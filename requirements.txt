@@ -1,0 +1,12 @@
+openai-whisper
+torch
+torchaudio
+numpy
+pillow
+ffmpeg-python
+librosa
+soundfile
+pydub
+persiantools
+arabic-reshaper
+python-bidi
