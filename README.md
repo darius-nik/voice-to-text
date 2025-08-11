@@ -1,3 +1,4 @@
+@ -0,0 +1,100 @@
 # Voice to Text Converter with OpenAI Whisper
 
 A modern GUI application that converts audio files to text with high accuracy using OpenAI's Whisper model.
@@ -35,9 +36,11 @@ A modern GUI application that converts audio files to text with high accuracy us
    ```
 
 2. **Select Model Size**:
-   - **small**: Better accuracy (~544 MB)
-   - **medium**: High accuracy (~1465 MB)
-   - **large**: Best accuracy (~2550 MB)
+   - **tiny**: Fastest, least accurate (~39 MB)
+   - **base**: Good balance of speed and accuracy (~74 MB) - Default
+   - **small**: Better accuracy (~244 MB)
+   - **medium**: High accuracy (~769 MB)
+   - **large**: Best accuracy (~1550 MB)
 
 3. **Select Audio File**:
    - Click "Select Audio File" button
@@ -69,9 +72,11 @@ The application uses OpenAI Whisper models with the following characteristics:
 
 | Model  | Size   | Accuracy | Speed |
 |--------|--------|----------|-------|
-| small  | ~544 MB|  medium  | fast  |
-| medium | ~1465 MB| Higher  | Slow  |
-| large  | ~2550 MB| Highest |Slowest|
+| tiny   | ~39 MB | Good     | Fast  |
+| base   | ~74 MB | Better   | Fast  |
+| small  | ~244 MB| High     | Medium|
+| medium | ~769 MB| Higher   | Slow  |
+| large  | ~1550 MB| Highest | Slowest|
 
 ## Requirements
 
