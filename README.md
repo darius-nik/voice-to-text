@@ -71,11 +71,9 @@ The application uses OpenAI Whisper models with the following characteristics:
 
 | Model  | Size   | Accuracy | Speed |
 |--------|--------|----------|-------|
-| tiny   | ~39 MB | Good     | Fast  |
-| base   | ~74 MB | Better   | Fast  |
-| small  | ~244 MB| High     | Medium|
-| medium | ~769 MB| Higher   | Slow  |
-| large  | ~1550 MB| Highest | Slowest|
+| small  | ~544 MB|  medium  | fast  |
+| medium | ~1465 MB| Higher  | Slow  |
+| large  | ~2550 MB| Highest |Slowest|
 
 ## Requirements
 
